@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+
+.loginform{
+    width: 400px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    position: absolute;
+    border-radius: 24px;
+}
+
+label{
+    color: #fff;
+}
+
+.loginform h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#username, #password{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #39d409;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25;
+}
+#username::placeholder, #password::placeholder{
+    color: #fff;
+}
+
+#username:focus #password:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+
+}
+
+#submitbutton{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+#submitbutton:hover{
+    background: #ffc400ec;
+}
